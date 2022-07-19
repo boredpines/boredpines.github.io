@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Infografis - Tracer Study 2021 Projek UAS Pemweb</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            #container {
+                float: left;
+                width: 860px;
+                height: 620px;
+                margin-top: 20px;
+                margin-left: 105px;
+                border-radius: 10px;
+                background-color: #c8e8e5;
+            }
+
+            #title {
+                float: left;
+                width: 100%;
+                height: 100px;
+                margin-top: 50px;
+                padding-left: 108px;
+                background-color: transparent;
+            }
+
+            #sidebar {
+                float: left;
+                width: 258px;
+                height: 200px;
+                margin-top: 20px;
+                margin-left: 20px;
+                border-radius: 10px;
+                background-color: #c8e8e5;
+            }
+
+            #sidebar-content {
+                width: 238px;
+                height: 62px;
+                margin-left: 8px;
+            }
+
+            .sidebar-content-img {
+                float: left;
+                width : 60px;
+                height: 60px;
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+
+            .sidebar-content-title {
+                float: left;
+                width: 140px;
+                height: 60px;
+                margin-top: -40px;
+                margin-left: 20px;
+                margin-bottom: 10px;
+                background-color: transparent;
+            }
+
+            .sidebar-title {
+                margin-bottom: 20px;
+                color: black;
+                font-size: 12px;
+            }
+
+            .sharebutton {
+                height: 30px;
+                width: 30px;
+                border: 1px transparent;
+                border-radius: 2px;
+                margin-left: 10px;
+            }
+
+            .sharebox {
+                width: 250px;
+                height: 35px;
+                margin-left: 608px;
+                background-color:transparent;
+            }
+
+            .box {
+                background-color: transparent;
+                padding: 10px 20px;
+                font-size: 20px;
+                border-radius: 3px;
+                border: 1px transparent;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper-masthead navbar navbar-expand-lg navbar-light bg-light-color:#089C8C; fixed-top" style="background-color:#089C8C;">
+            <div style="padding: 0 10px;" class="head">
+                <header class="masthead clearfix">
+                    <a href="https://www.pnj.ac.id/" class="site-avatar">
+                        <img src="img/logo pnj.png" />
+                    </a>
+    
+                    <div class="site-info">
+                        <h1 class="site-name"><a href="index.html">CDC PNJ</a></h1>
+                        <p class="site-description">Career Development Center PNJ</p>
+                    </div>
+    
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <nav class="site-name">
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" style="color: white;" aria-current="page" href="index.html">Menu Utama</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" style="color: white;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    About Us
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="about.html">Tentang CDC</a></li>
+                                        <li><a class="dropdown-item" href="Team.html">Struktur Organisasi Team CDC</a></li>
+                                        <li><a class="dropdown-item" href="personel.html">Tupoksi Personalia CDC</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Kuisioner
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSf40RPImjGse0yXu_xsohE_zPeS574MuKtEAzpFBZkxr8Ca1w/viewform">Tracer Study</a></li>
+                                        <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSe5evmnYJUiW9w_cmfjFOufn4OMi4F0XqO3pmq2oUAWS10qRA/viewform">Kuisioner Pengguna Lulusan</a></li>
+                                        <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfgg7HmGGv7GnkKIQ49jlDka45P-xXsLp_iXgj5SnmaFOsG2Q/viewform">Kuisioner Kerjasama CDC & Alumni</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Infografis
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="tracerstudy.html">Tracer Study 2021</a></li>
+                                        <li><a class="dropdown-item" href="infografis.html">Kepuasan Industri 2018-2021</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color: white;" href="https://docs.google.com/spreadsheets/d/1iC_hHNKWwDcH53NRehvNRS1x-Qj8L3kn/edit?usp=sharing&ouid=114495356020645571122&rtpof=true&sd=true">Laporan Tracer Study</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Perusahaan
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="https://drive.google.com/file/d/17e535aVJU1AiV7q3iYrplJsiY1vRwr20/view">Formulir Kemitraan</a></li>
+                                        <li><a class="dropdown-item" href="https://drive.google.com/file/d/1QXGFQAR8ECiqiRtYeDCWywHUem7c-Y-B/view">Prosedure Share Info</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color: white;" href="kerja.html">Pencari Kerja</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color: white;" href="warta.html">Warta</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" style="color: white;" href="kontak.html">Hubungi Kami</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+        </div>
+
+        <main>
+            <div id="title">
+                <p class="py-5" style="font-weight: bold; text-align: center;">
+                    <strong>
+                        <span style="font-size: 24pt;">INFOGRAFIS</span>
+                    </strong>
+                </p>
+                <p class="lead text-muted">Menyajikan informasi grafis seputar Politeknik Negeri Jakarta</p>
+            </div>      
+            <br>  
+            <div id="container">      
+                <h4 style="color:#000000; padding-left: 50px; padding-top: 30px">Status Lulusan 2021</h4>
+                <h14 style="color:rgb(53, 53, 53); padding-left: 50px; padding-top: 15px">Rabu, 13 Juli 2022 1:49:49  ~  cdc.pnj.ac.id</h14>
+                <hr>
+                <div class="sharebox">
+                    <h8 style="padding-left: 10px">Share :</h8>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://cdc.pnj.ac.id/readmore/62cdc24d92d919f50507be12/status-lulusan-2021" target="_blank">
+                        <img class="sharebutton" src="img/facebook.png" title="Share to Facebook">
+                    </a>
+                    <a href="https://plus.google.com/share?url=https://cdc.pnj.ac.id/readmore/62cdc24d92d919f50507be12/status-lulusan-2021" target="_blank">
+                        <img class="sharebutton" src="img/google.png" title="Share to Google">
+                    </a>
+                    <a href="https://twitter.com/share/?url=https://cdc.pnj.ac.id/readmore/62cdc24d92d919f50507be12/status-lulusan-2021" target="_blank">
+                        <img class="sharebutton" src="img/twitter.jpg" title="Share to Twitter">
+                    </a>
+                </div>
+                <img style="width: 800px; height: 400px; padding-left: 50px; margin-top: 10px" src="img/tracerstudy.png" title="Tracer Study 2021">
+            </div>
+
+            <div id="sidebar">
+                <h6 style="margin-left:12px; margin-top: 12px">Related Articles</h6>
+                <hr>
+                <div id="sidebar-content">
+                    <a href="infografis.html">
+                    <img class="sidebar-content-img" src="img/kepuasanindustri.png" title="Kepuasan Industri 2018-2021">
+                    <div class="sidebar-content-title">
+                        <h6 style="padding-top: 8px;padding-left: 5px; color:black" title="Kepuasan Industri 2018-2021">Kepuasan Industri 2018-2021</h6>
+                    </div>
+                    </a>
+                </div>
+            </div>    
+        </main>
+
+        <div class="wrapper-footer">
+            <footer id="myFooter">
+                <div class="footer-container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h5>Jurusan:</h5>
+                            <ul>
+                                <li><a href="https://sipil.pnj.ac.id/">Teknik Sipil</a></li>
+                                <li><a href="https://mesin.pnj.ac.id/">Teknik Mesin</a></li>
+                                <li><a href="https://elektro.pnj.ac.id/">Teknik Elektro</a></li>
+                                <li><a href="https://tik.pnj.ac.id/">Teknik Informatika &amp; Komputer</a></li>
+                                <li><a href="https://grafika.pnj.ac.id/">Teknik Grafika &amp; Penerbitan</a></li>
+                                <li><a href="https://akuntansi.pnj.ac.id/">Akuntansi</a></li>
+                                <li><a href="https://bisnis.pnj.ac.id/">Administrasi Niaga</a></li>
+                                <li><a href="../../../undefined//footerlinkall?hak_akses=pnj.ac.id">Pascasarjana</a></li>
+                            </ul>                       
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Portal Aplikasi:</h5>
+                            <ul>
+                                <li><a href="http://elearning.pnj.ac.id/" target="_blank" rel="noopener">Elearning</a></li>
+                                <li><a title="Jurnal Politeknik Negeri Jakarta" href="http://jurnal.pnj.ac.id/">Jurnal PNJ</a></li>
+                                <li><a href="http://opac.perpustakaan.pnj.ac.id/" target="_blank" rel="noopener">OPAC</a></li>
+                                <li><a href="http://simpeg.pnj.ac.id/portalsdm" target="_blank" rel="noopener">Simpeg</a></li>
+                                <li><a href="https://simkeu.pnj.ac.id/portal" target="_blank" rel="noopener">Simkeu</a></li>
+                                <li><a href="https://siak.pnj.ac.id/" target="_blank" rel="noopener">Siak</a></li>
+                                <li><a href="http://sister.pnj.ac.id/auth/login" rel="noopener">Sister</a></li>
+                                <li><a title="Sistem Informasi Penelitian dan Pengabdian Kepada Masyarakat" href="http://simlitabmas.ristekdikti.go.id/" target="_blank">SIMLITABMAS</a></li>
+                                <li>&nbsp;</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h5>Tautan Terkait:</h5>
+                            <ul>
+                                <li><a href="https://kemdikbud.go.id/" target="_blank" rel="noopener">Kementerian Pendidikan dan Kebudayaan</a></li>
+                                <li><a title="Laman Utama Ditjen Vokasi Kemdikbud" href="https://www.vokasi.kemdikbud.go.id/" target="_blank">Direktorat Jenderal Pendidikan Vokasi</a></li>
+                                <li><a href="https://akademik.pnj.ac.id/" target="_blank" rel="noopener">Akademik &amp; Kemahasiswaan</a></li>
+                                <li><a href="https://keuangan.pnj.ac.id/" target="_blank" rel="noopener">Tata Usaha dan Keuangan</a></li>
+                                <li><a href="https://kepegawaian.pnj.ac.id/">Kepegawaian</a></li>
+                                <li><a href="https://utd.pnj.ac.id/" target="_blank" rel="noopener">Unit Transformasi Digital</a></li>
+                                <li><a href="https://perpustakaan.pnj.ac.id/" target="_blank" rel="noopener">Perpustakaan</a></li>
+                                <li><a href="https://humas.pnj.ac.id/" rel="noopener">Hubungan Masyarakat dan Kantor Urusan Internasional</a></li>
+                                <li><a href="https://kerjasama.pnj.ac.id/" target="_blank" rel="noopener">Bidang Kerja sama</a></li>
+                                <li><a href="https://kemahasiswaan.pnj.ac.id/" target="_blank" rel="noopener">Kemahasiswaan</a></li>
+                                <li><a href="https://kopkar.pnj.ac.id/" target="_blank" rel="noopener">Koperasi Karyawan</a></li>
+                                <li><a href="https://lsp.pnj.ac.id/" target="_blank" rel="noopener">LSP</a></li>
+                                <li><a href="https://upmp.pnj.ac.id/" target="_blank" rel="noopener">UPMP ( Unit Peningkatan Mutu Pembelajaran)</a></li>
+                                <li><a href="https://perencanaan.pnj.ac.id/" target="_blank" rel="noopener">Perencanaan</a></li>
+                                <li><a href="https://spi.pnj.ac.id/" target="_blank" rel="noopener">SPI</a></li>
+                                <li><a href="https://ikapunija.pnj.ac.id/" target="_blank" rel="noopener">Puskominfo Alumni</a></li>
+                                <li><a href="https://senat.pnj.ac.id/" target="_blank" rel="noopener">Senat</a></li>
+                                <li><a href="https://spm.pnj.ac.id/" target="_blank" rel="noopener">SPM</a></li>
+                                <li><a href="../../../undefined//footerlinkall?hak_akses=pnj.ac.id">UPIV (Unit Pengembangan Inovasi dan Ventura)</a></li>
+                                <li><a title="Unit Transformasi Digital" href="https://utd.pnj.ac.id/" target="_blank">UTD (Unit Transformasi Digital)</a></li>
+                                <li><a href="https://up2m.pnj.ac.id/" target="_blank" rel="noopener">UP2M</a></li>
+                                <li><a href="https://putoi.pnj.ac.id/" rel="noopener">PUTOI</a></li>
+                                <li><a href="https://layanan.pnj.ac.id/" rel="noopener">Layanan</a></li>
+                                <li><a href="https://upg.pnj.ac.id/">UPG</a></li>
+                                <li><a href="https://peraturan.pnj.ac.id/">Peraturan</a></li>
+                                <li><a href="https://pascasarjana.pnj.ac.id/">Pascasarjana</a></li>
+                                <li><a href="https://akndemak.ac.id/" target="_blank" rel="noopener">AKN Demak</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 info">
+                            <h5>Langganan:</h5>
+                            <p>Bergabunglah dengan mailing kami untuk tetap up to date dan mendapatkan pemberitahuan tentang berita baru kami!</p>
+                                <form class="subscribe" action="/subscribesave" method="POST" name="form1">
+                                    <input name="email" type="text" placeholder="mail@pnj.ac.id" maxlength="80" class="email" id="email" required data-error="Please enter your email">
+                                    <input type="submit" class="btn-default bg-light-color:#089C8C text-white" style="background-color: #089C8C;" value="Kirim" onclick="ValidateEmail(document.form1.email)">
+                                </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-bar">
+                    <div class="footer-container">
+                        <div style="text-align: left;">
+                            <div class="social-icons">
+                                <a href="https://github.com/titenko" class="github"><i class="fa fa-github"></i></a>
+                                <a href="https://t.me/maksymtitenko" class="telegram"><i class="fa fa-telegram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="text-align: center;">Copyright &copy; 2022 - Designed &amp; Developed by <a href="https://pnj.ac.id">Politeknik Negeri Jakarta</a></p>
+                </div>
+            </footer>
+        </div>
+    
+        <script src="bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>
